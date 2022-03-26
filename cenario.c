@@ -15,9 +15,29 @@ void gotoxy (int x, int y)
 }
 int main (){
 
-gotoxy(10,10);
-printf("banana pacas");
-system ("pause"); //pausar  na tela - somente
+//gotoxy(0,0);
+//printf("%c", 219);
+///*
+int i;
+for (i = 0; i <= 10; i++) {
+    gotoxy(0,i);
+    printf("%c", 219);
+}
+for (i = 0; i <= 20; i++) {
+    gotoxy(i,0);
+    printf("%c", 219);
+}
+for (i = 0; i <= 10; i++) {
+    gotoxy(20,i);
+    printf("%c", 219);
+}
+for (i = 0; i <= 20; i++) {
+    gotoxy(i,10);
+    printf("%c", 219);
+}
+//*/
+printf("\n\n");
+system ("pause"); //pausa o sistema
 
 
 
