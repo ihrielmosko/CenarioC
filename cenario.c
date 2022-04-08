@@ -24,30 +24,7 @@ int main (){
     printf("digite o valor de y\n");
     scanf("%d", &y);
     //*/
-    /*
-    for (i = 0; i <= 10; i++) {
-        gotoxy(0,i);
-        printf("%c", 219);
-    }
-    for (i = 0; i <= 20; i++) {
-        gotoxy(i,0);
-        printf("%c", 219);
-    }
-    for (i = 0; i <= 10; i++) {
-        gotoxy(20,i);
-        printf("%c", 219);
-    }
-    for (i = 0; i <= 20; i++) {
-        gotoxy(i,10);
-        printf("%c", 219);
-    }
-    for (i = 1; i <= 19; i++) {
-        for (i2 = 1; i2 <= 9; i2++) {
-            gotoxy(i,i2);
-            printf("%c", 176);
-        }
-    }
-    */
+
    ///*
 
    system("cls");
